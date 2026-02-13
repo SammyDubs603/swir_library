@@ -1,0 +1,21 @@
+{
+  "source": {
+    "name": "ECOSTRESS Spectral Library",
+    "url": "https://speclib.jpl.nasa.gov/",
+    "license": "NASA Open Data",
+    "citation_text": "Meerdink et al. ECOSTRESS Spectral Library",
+    "access_method": "download"
+  },
+  "records": [
+    {
+      "material": {"name": "Green Vegetation", "category": "vegetation", "tags": ["leaf"], "synonyms": ["foliage"]},
+      "spectrum": {
+        "wavelength_nm": [900, 1100, 1300, 1500, 1700, 2100, 2500],
+        "value": [0.45, 0.48, 0.5, 0.42, 0.39, 0.33, 0.28],
+        "value_type": "reflectance",
+        "units": "fraction"
+      },
+      "provenance": {"original_identifier": "ecostress-veg-demo", "original_url": "https://speclib.jpl.nasa.gov/", "original_format": "json"}
+    }
+  ]
+}
