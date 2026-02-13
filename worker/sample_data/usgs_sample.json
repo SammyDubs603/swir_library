@@ -1,0 +1,21 @@
+{
+  "source": {
+    "name": "USGS Spectral Library",
+    "url": "https://www.usgs.gov/labs/spec-lab",
+    "license": "Public Domain",
+    "citation_text": "USGS Spectral Library Version 7",
+    "access_method": "download"
+  },
+  "records": [
+    {
+      "material": {"name": "Kaolinite", "category": "mineral", "tags": ["clay"], "synonyms": ["KGa-1"]},
+      "spectrum": {
+        "wavelength_nm": [800, 900, 1000, 1400, 1900, 2200, 2500],
+        "value": [0.52, 0.54, 0.55, 0.43, 0.35, 0.29, 0.31],
+        "value_type": "reflectance",
+        "units": "fraction"
+      },
+      "provenance": {"original_identifier": "usgs-kaolinite-demo", "original_url": "https://www.usgs.gov/labs/spec-lab", "original_format": "json"}
+    }
+  ]
+}

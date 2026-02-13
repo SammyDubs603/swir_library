@@ -1,0 +1,21 @@
+{
+  "source": {
+    "name": "EcoSIS",
+    "url": "https://ecosis.org/",
+    "license": "CC-BY-4.0",
+    "citation_text": "EcoSIS Public Spectral Datasets",
+    "access_method": "download"
+  },
+  "records": [
+    {
+      "material": {"name": "Polyethylene", "category": "polymer", "tags": ["plastic"], "synonyms": ["PE"]},
+      "spectrum": {
+        "wavelength_nm": [900, 1000, 1200, 1400, 1700, 2300, 2500],
+        "value": [0.62, 0.64, 0.6, 0.55, 0.47, 0.41, 0.38],
+        "value_type": "reflectance",
+        "units": "fraction"
+      },
+      "provenance": {"original_identifier": "ecosis-pe-demo", "original_url": "https://ecosis.org/", "original_format": "json"}
+    }
+  ]
+}
